@@ -3,78 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>| Adrian Amaya</title>
+    <title>Adrian Amaya | PhD Candidate</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
-     <style>
-      html, body {
-          height: 100%;
-          margin: 0;
-          display: flex;
-          flex-direction: column;
-          font-family: "Roboto", sans-serif;
-          background-color: #f4f4f9; 
-      }
-      .navbar-brand span {
-          font-size: 34px;
-          font-weight: 700;
-      }
-      .navbar-nav {
-          margin-left: auto;
-      }
-      .navbar-nav .nav-item .nav-link {
-          font-size: 34px;
-          font-weight: 700;
-          color: #333;
-      }
-      .content {
-          flex: 1;
-      }
-      .footer {
-          background-color: #f8f9fa; 
-      }
-      .jmpsection {
-          position: relative;
-          margin-top: 60px;
-          font-size: 1.75rem;
-          font-weight: bold;
-          font-family: "Montserrat", sans-serif; 
-          color: #333; 
-      }
-      .jmptitle {
-          font-size: 1.5rem;
-          font-weight: thin;
-          margin-top: 20px;
-      }
-      .working-papers ul {
-            list-style-type: none;
-            padding-left: 0;
-      }
-
-    .working-papers ul li {
-            font-size: 1rem;
-            font-weight: normal;
-            margin-bottom: 15px;
-      }
-      .abstract {
-          font-size: 1rem;
-          font-weight: thin;
-          margin-top: 15px;
-      }
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-brand {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        .nav-link {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .header p {
+            font-size: 18px;
+            color: #555;
+        }
+        .working-papers .paper-item {
+            display: flex;
+            margin-bottom: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .working-papers .paper-thumbnail {
+            flex: 1 1 30%;
+            max-width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .working-papers .paper-thumbnail img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .working-papers .paper-details {
+            flex: 1 1 70%;
+            padding: 20px;
+        }
+        .working-papers h4 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .working-papers p {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .working-papers a {
+            font-weight: bold;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .working-papers a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            font-size: 14px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><span>Adrian Amaya</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Adrian Amaya</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <!-- Wrap the navbar content -->
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -84,57 +100,53 @@
     </div>
 </nav>
 
-    <hr>
+<div class="container">
+    <div class="header">
+        <h1>Economics Ph.D. candidate</h1>
+        <p>I am currently on the 2024-2025 job market! My research has explored the intersections between environmental change and societal outcomes
+with a focus on understanding the implications for public health and policy. I enjoy generating valuable insights from unique datasets, leveraging my academic training and proficiency in Stata and R.</p>
+    </div>
 
-    <div class="container my-4 content">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="about">
-                    <p style="margin-top: 40px;">I am currently on the 2024-2025 job market. I am a PhD candidate at the University of Hawaiʻi-Mānoa (UHM) and a research assistant at <a href="https://uhero.hawaii.edu/">UHERO</a>.</p>
-                    <p>My research explores the intersections between environmental change and societal outcomes
-with a focus on understanding the implications for public health and policy. My research shows that I enjoy working with unique datasets to answer complex questions.</p>
-                    <h2 class="jmpsection">Working Papers</h2>
-                    <div class="working-papers">
-                        <ul>
-                            <li>
-				                <span style='font-weight:bold;'>JOB MARKET PAPER</span><br>
-                                Amaya, A. (2024). Medicaid enrollment responses to wildfire pollution.<br>
-                                <a href="hinspm.pdf" target="_blank">Draft</a>
-                            </li>
-                            <li>
-                                Amaya, A., Lynham, J., De Leo, G. A., & Villaseñor‑Derbez, J. C. (2024). Satellite imagery reveals differing pathways to adaptation to a global shock.<br>
-				<a href="ntl.pdf" target="_blank">Draft</a>
-                            </li>
-                            <li>
-                                Amaya, A., & Eshun, J. (2024). Informal artisanal small‑scale mining (Galamsey) and malaria: Impacts on children under‑5 in Ghana.<br>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
+    <h2 class="my-4">Working Papers</h2>
+    <div class="working-papers">
+        <div class="paper-item">
+            <div class="paper-thumbnail">
+                <img src="thumbnail1.png" alt="Medicaid Enrollment Responses to Wildfire Pollution">
             </div>
-            <div class="col-md-4">
-                <div class="profile text-center mr-4">
-                    <img src="avatar.jpg" alt="Adrian Amaya" class="img-fluid rounded-circle">
-                    <div class="contact mt-3">
-                        <p><strong>&#97;&#97;&#109;&#97;&#121;&#97;&#50;[at]&#104;&#97;&#119;&#97;&#105;&#105;&#46;&#101;&#100;&#117;</strong></p>
-                    </div>
-                    <div class="contact mt-3">
-                        <a href="CV.pdf">curriculum vitae</a>
-                    </div>
-                </div>
+            <div class="paper-details">
+                <h4>Medicaid Enrollment Responses to Wildfire Pollution</h4>
+                <p>Job Market Paper</p>
+                <p><strong>Adrian Amaya (2025)</strong></p>
+                <a href="hinspm.pdf" target="_blank">Read Draft</a>
             </div>
         </div>
-        <div class="container my-4">
-            <div class="col">
+
+        <div class="paper-item">
+            <div class="paper-thumbnail">
+                <img src="thumbnail2.jpg" alt="Satellite Imagery Reveals Differing Pathways to Adaptation">
+            </div>
+            <div class="paper-details">
+                <h4>Satellite Imagery Reveals Differing Pathways to Adaptation to a Global Shock</h4>
+                <p><strong>Amaya, A., Lynham, J., De Leo, G. A., & Villaseñor-Derbez, J. C. (2025)</strong></p>
+                <a href="ntl.pdf" target="_blank">Read Draft</a>
+            </div>
+        </div>
+
+        <div class="paper-item">
+            <div class="paper-thumbnail">
+                <img src="thumbnail3.jpg" alt="Informal Artisanal Small-Scale Mining and Malaria">
+            </div>
+            <div class="paper-details">
+                <h4>Informal Artisanal Small-Scale Mining (Galamsey) and Malaria: Impacts on Children Under-5 in Ghana</h4>
+                <p><strong>Amaya, A., & Eshun, J. (2025)</strong></p>
             </div>
         </div>
     </div>
-    <hr>
-    <footer class="footer mt-auto py-3">
-        <div class="container text-center">
-            <span class="text-muted">Thanks for visiting</span>
-        </div>
-    </footer>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 Adrian Amaya. All rights reserved.</p>
+</div>
+
 </body>
 </html>
